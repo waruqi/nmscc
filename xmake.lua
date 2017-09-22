@@ -26,7 +26,7 @@ set_languages("cxx1z")
 
 -- set output directiories
 set_targetdir("publish/bin")
-set_objectdir("/tmp/nmscc")
+set_objectdir("$(tmpdir)/nmscc")
 
 -- add common flags
 add_cxxflags("-frtti")
